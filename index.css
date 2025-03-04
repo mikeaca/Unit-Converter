@@ -51,7 +51,44 @@ h1 {
     
 }
 
-#input-el {
+#input-el{
+    margin: 25px auto 20px;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 58px;
+    font-style: normal;
+    width: 117px;
+    height: 83px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    padding-top: 10px;
+    background-color: #6943FF;
+    color: white;
+    text-align: center;
+}
+
+/*
+
+#input-el:active{
+    margin: 25px auto 20px;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 58px;
+    font-style: normal;
+    width: 117px;
+    height: 83px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    padding-top: 10px;
+    background-color: #6943FF;
+    color: white;
+    text-align: center;
+}
+*/
+
+#input-el{
     margin: 25px auto 20px;
     font-family: "Inter", serif;
     font-optical-sizing: auto;
@@ -80,6 +117,17 @@ button{
     width: 117px;
     height: 42px;
     margin: 25px auto;
+}
+
+button:active {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+    color: #3D3D3D;
+    border: 0px;
+    border-radius: 5px;
 }
 
 #input-container{
